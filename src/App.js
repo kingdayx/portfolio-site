@@ -5,7 +5,13 @@ import Footer from "./components/Footer";
 
 class App extends React.Component {
   render() {
-    return (<Header />), (<Body />), (<Footer />);
+    return (
+      <>
+        <Header />
+        <Body />
+        <Footer />
+      </>
+    );
   }
 }
 
